@@ -1,0 +1,13 @@
+#theme: jekyll-theme-minimal
+name: alex.dance
+title: null
+plugins:
+  - jekyll-relative-links
+  - jekyll-feed
+  - jemoji
+relative_links:
+  enabled: true
+  collections: true
+include:
+  - index.md
+permalink: /posts/
