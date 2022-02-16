@@ -10,4 +10,5 @@ relative_links:
   collections: true
 include:
   - index.md
+  - energy.md
 permalink: /posts/
