@@ -6,6 +6,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce mattis ullamcorpe
 Posts
 {% for post in site.posts %}
 
-{{ post.title }}
-{{ post.date | date_to_long_string }} {{ post.content }} {% endfor %}
+#{{ post.title }}
+{{ post.date | date_to_long_string }} 
+{{ post.content }} 
+{% endfor %}
+
 {% include footer.md %}
